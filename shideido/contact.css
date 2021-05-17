@@ -1,0 +1,136 @@
+/*全体設定*/
+* {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic",
+    "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic Pro",
+    Meiryo, メイリオ, "ＭＳ Ｐゴシック", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.gold {
+  color: #b28850;
+}
+.black {
+  color: #222222;
+}
+.white {
+  color: #ffffff;
+}
+.a-opacity:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.svg-icon {
+  display: none;
+}
+header {
+  width: 100%;
+}
+header .header-top {
+  background-image: url(asset/service-background.png);
+  width: 561px;
+  margin: 0 auto;
+  padding: 20px 0px 0px;
+}
+.header-top h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  background-color: #b28850;
+  margin: 20px 0px 0px;
+  padding: 8px 20px;
+  font-size: 14px;
+  color: #ffffff;
+}
+.header-top svg {
+  width: 190px;
+  height: 48px;
+}
+body {
+  background-image: url(asset/service-background.png);
+  padding: 0px 0px 40px;
+}
+.contents-wrapper {
+  margin: 0 auto;
+  width: 465px;
+}
+hr {
+  color: #b28850;
+}
+input {
+  height: 18px;
+}
+textarea {
+  height: 62px;
+}
+h3 {
+  margin-top: 40px;
+  font-size: 12px;
+  font-weight: 1;
+  line-height: 1.5;
+}
+dl {
+  margin-top: 40px;
+  display: flex;
+}
+dt {
+  width: 120px;
+}
+span {
+  font-size: 12px;
+  color: #b28850;
+}
+dd p {
+  margin-top: 3px;
+  font-size: 10px;
+}
+dd .name {
+  display: flex;
+  color: #222222;
+  font-size: 12px;
+}
+dd .name li {
+  margin-right: 11px;
+}
+dd .name input {
+  width: 126px;
+}
+.address {
+  font-size: 12px;
+}
+.address li {
+  margin-top: 15px;
+}
+.address-number {
+  display: flex;
+}
+.address-number li {
+  margin-top: 0;
+  margin-right: 10px;
+}
+.address-number input {
+  width: 120px;
+}
+.address-prefecture {
+  display: flex;
+}
+.address-prefecture li {
+  margin-top: 0;
+  margin-right: 10px;
+}
+.address-prefecture input {
+  width: 120px;
+}
+.phone-number {
+  margin-top: 15px;
+}
+
+.btn {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.btn input {
+  height: 30px;
+}
